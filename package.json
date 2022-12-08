@@ -8,11 +8,13 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "publish": "vercel build && vercel --prebuilt"
+    "publish": "vercel build && vercel --prebuilt",
+    "build:local": "eas build --platform android --local --profile rn-starter"
   },
   "dependencies": {
     "class-variance-authority": "^0.4.0",
     "expo": "~47.0.8",
+    "expo-dev-client": "~2.0.1",
     "expo-status-bar": "~1.4.2",
     "nativewind": "^2.0.11",
     "react": "18.1.0",

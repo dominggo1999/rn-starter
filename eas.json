@@ -1,0 +1,15 @@
+{
+  "cli": {
+    "version": ">= 3.0.0"
+  },
+  "build": {
+    "rn-starter": {
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease",
+        "developmentClient": true
+      }
+    },
+    "production": {}
+  }
+}
